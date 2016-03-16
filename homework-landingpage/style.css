@@ -1,8 +1,8 @@
 /*
-Project Name: Relaxr Landing Page
-Client: GA HW
-Author: Dana Hsn
-Developer @GA in LA
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
 */
 
 
@@ -46,12 +46,13 @@ Developer @GA in LA
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: 'Open Sans', sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  color: #f0efef;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background-size: cover;
 }
 
 
@@ -62,16 +63,133 @@ body {
 /* Center the container */
 #container {
   width: 100%;
-  margin: 0 auto;
+  margin: auto;
   height: 500px;
 
-
 }
 
 
-footer {
+header {
+    background: url(header_bg.jpg);
+
+  }
+
+header h2 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  padding: 50px;
+}
+
+
+header .logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+  margin-left: 250px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+border-radius: 5px;
+font-weight: 800;
+padding: 12px;
+width: 150px;
+font-size: 14px;
+text-align: center;
+display: block;
+margin: 0 auto;
 
 }
+
+.yellow {
+  background: #f9e42e;
+  color: #033048;
+}
+
+.section2 {
+  padding:100px;
+}
+
+.list {
+  font-size: 13px;
+}
+  h3 {
+    color: #033048;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+
+
+.section3 {
+  background: url(testimonial_bg.jpg);
+  padding: 100px;
+  color:#fff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.text {
+  width:400px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.button2 {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px;
+  width: 150px;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.blue {
+  background: #033048;
+  color: #fff;
+}
+
+.section4{
+  background: #f9e42e;
+  padding: 30px;
+}
+
+.section5 {
+  background: #121212;
+  padding: 30px;
+}
+
+
+.copyright {
+  color: #fff;
+  text-align: center;
+  font-size:9px;
+  font-weight:600;
+}
+
+ footer {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  color:#f9e42e;
+}
+
+
+
+
+
+
 
 
 /******************************************
