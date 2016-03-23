@@ -73,7 +73,7 @@ header {
   background-color: #f0efef;
   width: 660px;
   float: left;
-  height: 1500px;
+  height: 1680px;
   padding-top: 30px;
 
 }
@@ -82,7 +82,7 @@ header {
 .sidebar {
   background-color: #f0efef;
   float: left;
-  height: 1500px;
+  height: 1680px;
   width: 300px;
   margin:0 auto;
   font-size: 24px;
@@ -96,7 +96,7 @@ clear:both;
 float: right;
 font-size: 24px;
 width: 578px;
-color:#121212;
+color: #606161;
 }
 
 
@@ -123,6 +123,7 @@ h2 {
   font-weight: 600;
   width: 500px;
   margin: 0 auto;
+  color: #033048;
 }
 
 h3 {
@@ -144,6 +145,16 @@ footer {
 .footerlogo {
   font-weight: 800;
   padding: 40px;
+  color: #f9e42e;
+}
+
+
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+  padding-right: 15px;
 }
 
 
@@ -179,9 +190,6 @@ nav a {
     font-weight: 600;
 }
 
-nav a:hover {
-    background: #111;
-}
 /*end navbar*/
 
 .logo {
@@ -239,14 +247,12 @@ hr {
   text-align: center;
   font-size:9px;
   font-weight:600;
-  padding-top: 40px;
 }
 
-.twitter {
-padding: 20px;
-
-}
-
-.fb {
-  padding: 20px;
+span {
+font-size: 70px;
+font-weight: 600;
+padding: 10px;
+float: left;
+line-height: 100%;
 }
