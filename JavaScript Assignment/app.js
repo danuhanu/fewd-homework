@@ -1,4 +1,5 @@
 $(document).ready (function(){
+console.log("js loaded");
 
 $("#submit-btn").click (function(){
   event.preventDefault();
@@ -6,9 +7,8 @@ $("#submit-btn").click (function(){
 var city = $('#city-type').val();
   $('#city-type').val('');
   city = city.toLowerCase().trim();
-  )};
 
-if(city == 'new york city') || city == 'nyc' || city == 'new york') {
+if(city == 'new york city' || city == 'nyc' || city == 'new york') {
   $('body').attr('class','nyc');
 }
 
@@ -28,5 +28,5 @@ else if (city == 'sydney' || city == 'syd') {
   $('body').attr('class','sydney');
     }
 
-  )};
-)};
+  });
+});
