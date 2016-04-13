@@ -1,13 +1,33 @@
+var responses = ["yes", "no", "ask again", "later", "maybe", "reply hazy", "signs point to yes"]
+
 // This waits till the page finishes loading before running the code inside the {}
 $(document).ready(function() {
-  var responses = ["yes", "no", "ask again", "later", "maybe", "reply hazy", "signs point to yes"]
+
+console.log ("JS is working")
 
   function buttonClicked(){
-    var  = $('#').val()
-    var randomNumber = Math.floor(Math.random() * prefix.length)
-    $('#output').text()
+      var randomNumber = Math.floor(Math.random() * responses.length)
+      var result = responses[randomNumber]
+      $('#output').text(result)
+
+
+
   }
 
-  $('#submit').click(buttonClicked)
+
+  function colorSwitch(){
+
+    $("div").attr("class", "blue")
+
+
+}
+
+  function colorSwitch(){
+
+    $("div").attr("class", "green")
+  }
+
+$('#submit').click(buttonClicked)
+$('#submit').click(colorSwitch)
 
 });
