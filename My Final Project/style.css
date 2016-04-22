@@ -7,12 +7,17 @@ nav a {
     color: white;
     padding: 10px 15px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 600;
+
 }
 nav li {
     float: right;
     list-style-type: none;
+}
+
+a:hover {
+  color:#00BCD4;
 }
 
 #container {
@@ -40,6 +45,8 @@ h1 {
   clear: both;
 
 
+
+
 }
 
 
@@ -50,18 +57,12 @@ h2 {
 }
 
 #about {
-  background-color: red;
+  background-color: #fff;
   height: 500px;
   margin-top:150px;
   width: 100%;
 
 }
-
-#top {
-  text-decoration:none;
-  color:white;
-}
-
 
 
 #inspirations {
@@ -82,10 +83,4 @@ h2 {
   background-color: orange;
   height: 500px;
   width: 100%;
-}
-
-.pics {
-  display: block;
- margin-left: auto;
- margin-right: auto;
 }

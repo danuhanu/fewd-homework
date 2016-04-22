@@ -1,0 +1,11 @@
+body {
+  background-color: white;
+}
+
+/* Your CSS goes here */
+input {
+  display:block;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
