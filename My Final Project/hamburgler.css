@@ -50,7 +50,7 @@
 .icon {
     z-index: 999;
     position: fixed;
-    display: block;
+    display: none;
     padding: 9px;
     height: 32px;
     width:32px;
@@ -87,7 +87,8 @@
 
 }
 
-@media screen and (max-width:1080px) and (min-width: 980px){
-	.icon {
-    display:none;
-  }
+@media screen and (max-width: 768px){
+  .icon {display: block;
+}
+
+}

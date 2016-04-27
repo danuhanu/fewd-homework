@@ -1,5 +1,7 @@
 body {
   font-family: 'Amatic SC', cursive;
+  background:url(chineseny.jpg) top right no-repeat; background-attachment:fixed;
+
 }
 
 nav a {
@@ -29,7 +31,7 @@ header {
   background-color:black;
   background-image: url("header_photo.jpg");
   background-repeat: no-repeat;
-  color: white;
+  color: #fff;
   height: 150px;
   width: 100%;
   position:fixed;
@@ -40,8 +42,9 @@ header {
 
 h1 {
   padding: 20px;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
+  font-weight:600;
   clear: both;
 
 
@@ -54,33 +57,71 @@ h2 {
   margin:0;
   font-size:30px;
   font-weight:600;
+  color:#fff;
 }
 
+.abouttext {
+  color: #fff;
+  text-align: center;
+  font-size:25px;
+  width: 400px;
+  margin:auto;
+  padding-top:100px;
+}
 #about {
-  background-color: #fff;
-  height: 500px;
+  height: 450px;
   margin-top:150px;
   width: 100%;
+
 
 }
 
 
 #inspirations {
-  background-color: yellow;
   height: 500px;
   width: 100%;
 }
 
 #drawings {
-  background-color: green;
   height: 500px;
-  background-image: url("drawing_seal.jpg");
   width: 100%;
+  color:#fff;
+
 
 }
 
 #contact {
-  background-color: orange;
-  height: 500px;
-  width: 100%;
+  background-color: black;
+}
+
+#form1{
+  text-align:center;
+  color: white;
+
+}
+
+#button-blue {
+  width:50px;
+}
+input {
+  margin: 0 0 2em;
+  font-family: 'Amatic SC', cursive;
+  width: 150px;
+  height: 20px;
+
+}
+
+textarea {
+    font-family: 'Amatic SC', cursive;
+    width: 150px;
+}
+
+@media screen and (max-width: 768px){
+  nav a li {
+    display: none;
+}
+
+h1 {
+  font-size: 35px;
+  float:right;
 }
