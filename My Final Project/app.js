@@ -2,7 +2,7 @@ console.clear();
 
 $(function() {
 
-$('nav li a').click(function(){
+$('nav li a, .mobilenav li a').click(function(){
   var headerHeight = $('header').height();
 
   var a = $(this).attr('href')
@@ -18,5 +18,8 @@ $('nav li a').click(function(){
 
 
   });
+
+  $('.slider').slick();
+
 
 });

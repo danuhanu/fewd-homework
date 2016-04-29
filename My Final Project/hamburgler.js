@@ -9,6 +9,16 @@ function togglescroll () {
 }
 
 $(document).ready(function () {
+
+  console.log ("hi i'm working")
+  $(".mobilenav li a").click(function(){
+    $(".mobilenav").fadeToggle(500);
+    $(".top-menu").toggleClass("top-animate");
+    $("body").toggleClass("noscroll");
+    $(".mid-menu").toggleClass("mid-animate");
+    $(".bottom-menu").toggleClass("bottom-animate");
+  });
+
     togglescroll()
     $(".icon").click(function () {
         $(".mobilenav").fadeToggle(500);
@@ -30,4 +40,3 @@ $(document).keydown(function(e) {
         $(".bottom-menu").removeClass("bottom-animate");
     }
 });
-

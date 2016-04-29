@@ -2,6 +2,7 @@ body {
   font-family: 'Amatic SC', cursive;
   background:url(chineseny.jpg) top right no-repeat; background-attachment:fixed;
 
+
 }
 
 nav a {
@@ -37,6 +38,7 @@ header {
   position:fixed;
   top:0;
   left:0;
+  z-index: 997;
 
 }
 
@@ -133,6 +135,29 @@ textarea {
     width: 150px;
 }
 
+.slider {
+  width: 800px;
+  margin-left:auto;
+  margin-right: auto;
+  max-width:calc(100% - 100px);
+
+}
+
+.slide{
+  height:400px;
+  text-align: center;
+  position: relative;
+}
+
+.slide img {
+  margin:auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+}
 .logos {
   float: right;
   color:white;
